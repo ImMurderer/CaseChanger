@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Oswald", sans-serif;
+    outline: 0;
 }
 body {
     display: flex;
@@ -81,6 +82,10 @@ textarea ~ button {
     height: 525px;
 }
 
+.info div {
+    width: 100%;
+}
+
 ul {
     padding-left: 50px;
 }
@@ -100,6 +105,9 @@ h1 {
 p, li {
     margin: 5px 0;
     font-weight: 300;
+}
+.iconify {
+    pointer-events: none;
 }
 
 

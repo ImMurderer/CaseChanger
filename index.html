@@ -6,13 +6,16 @@
     <title>CaseChanger</title>
     <link rel="stylesheet" href="css/styles.css" />
     <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-3861926147580208",
-    enable_page_level_ads: true
-  });
-</script>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    ></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-3861926147580208",
+        enable_page_level_ads: true
+      });
+    </script>
   </head>
   <body>
     <nav>
@@ -25,31 +28,31 @@
     </nav>
     <section>
       <div class="btn-group">
-        <button>
+        <button id="uppercase">
           <span class="iconify" data-icon="bx:bxs-up-arrow"></span>
         </button>
-        <button>
+        <button id="lowercase">
           <span
             class="iconify"
             data-icon="bx:bxs-up-arrow"
             style="transform: rotate(180deg);"
           ></span>
         </button>
-        <button>
+        <button id="titlecase">
           <span class="iconify" data-icon="mdi-format-letter-case"></span>
         </button>
-        <button>
+        <button id="camelcase">
           <span
             class="iconify"
             data-icon="emojione-monotone:two-hump-camel"
           ></span>
         </button>
-        <button>
+        <button id="starcase">
           <span class="iconify" data-icon="vaadin:asterisk"></span>
         </button>
       </div>
-      <textarea></textarea>
-      <button>
+      <textarea id="entrada"></textarea>
+      <button id="copy">
         <span class="iconify" data-icon="mdi:clipboard-multiple"></span>
       </button>
     </section>
@@ -95,7 +98,8 @@
       AD
     </div>
     <footer>
-      Copyright © João Pedro Prado 
+      Copyright © João Pedro Prado
     </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
